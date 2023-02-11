@@ -56,6 +56,6 @@ let arr2 = [
 ];
 function concatenateArray() {
   //Write your code here, just console.log
-  let concatenatedArray = arr.concat(arr2);
-  console.log(concatenatedArray);
+  arr = arr.concat(arr2);
+  console.log(arr);
 }
